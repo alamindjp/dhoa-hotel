@@ -12,7 +12,7 @@ header{
     flex-grow: 0;
 }
 .nav-item:hover .nav-hover{
-    background-color: #f5f4f4;
+    background-color: #dddcdc;
     border-radius: 10px;
 }
 /* Carousel items styles */
@@ -23,7 +23,7 @@ header{
 }
 
 /* media quary styles */
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 420px) {
     .h1-sm-font{
         font-size: 20px;
     }
