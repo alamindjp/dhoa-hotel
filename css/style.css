@@ -8,18 +8,19 @@
     background-image: linear-gradient(90deg, #d4d4d4, #ffffff);
     font-family: 'Poppins', sans-serif;
 }
-i{
-    color: #5858f569;
-}
-a{
-    text-decoration: none;
-}
 .dhoa-btn-primary{
-    width: 150px;
+    font-weight: 700;
+    text-decoration: none;
+    width: 200px;
     padding: 5px 20px;
-    border: 0 solid;
-    background-color: rgb(212, 201, 201);
+    border: 2px solid #5f5fee85;
     border-radius: 10px;
+    transition: .7s;
+}
+.dhoa-btn-primary:hover{
+    background-color: #868686;
+    color: white;
+    border: 2px solid #868686;
 }
 .dhoa-speace-between{
     display: flex;
@@ -42,7 +43,14 @@ a{
 }
 /* card items styles */
 .dhoa-rounded-10{
+    color: #646262;
     border-radius: 10px;
+    transition: transform .5s;
+}
+.dhoa-rounded-10:hover{
+    box-shadow: 0 10px 50px #acacaca9;
+    transform: scale(1.05);
+    transform: translateY(-20px);
 }
 /* media quary styles */
 @media only screen and (max-width: 420px) {
