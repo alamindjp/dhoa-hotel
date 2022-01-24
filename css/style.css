@@ -44,6 +44,10 @@ body{
     text-align: center;
 }
 /* toast styles */
+.toast-border{
+    border: none;
+    border-left: 10px solid #1d40b3;
+}
 /* card items styles */
 .dhoa-rounded-10{
     color: #646262;
