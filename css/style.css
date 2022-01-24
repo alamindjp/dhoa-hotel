@@ -75,11 +75,21 @@
     .h1-sm-font{
         font-size: 20px;
     }
+    .dhoa-rounded-10:hover{
+        transform: translateY(-5px);
+        margin-top: 30px;
+    }
    
 }
-@media only screen and (min-width: 1025px) {
-    .carousel-item{
-        height: 100vh;
+@media only screen and (min-width: 768px) and (max-width: 992){
+    .dhoa-rounded-10:hover{
+        transform: translateY(-5px);
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width: 992px) and (max-width: 1024px){
+    .dhoa-rounded-10:hover{
+        transform: translateY(-20px);
     }
    
 }
