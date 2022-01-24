@@ -17,11 +17,10 @@
     background-color: #dddcdc;
     border-radius: 10px;
 }
-/* Carousel items styles */
+/* moment items styles */
 
-.carousel-item img{
-    height: 100%;
-    width: 100%;
+.dhoa-btn{
+    border: 3px salmon;
 }
 
 /* media quary styles */
