@@ -44,13 +44,31 @@
 /* card items styles */
 .dhoa-rounded-10{
     color: #646262;
-    border-radius: 10px;
+    border-radius: 30px;
     transition: transform .5s;
 }
 .dhoa-rounded-10:hover{
     box-shadow: 0 10px 50px #acacaca9;
     transform: scale(1.05);
-    transform: translateY(-20px);
+    transform: translateY(-60px);
+}
+.dhoa-rounded-10:hover .dhoa-tooltip{
+    position: relative;
+    display: inherit;
+}
+.dhoa-tooltip{
+    color: lightcoral;
+    font-weight: 700;
+    border: none;
+    width: 50px;
+    border-radius: 15px;
+    background-color: #f1e46a59;
+    justify-content: center;
+    bottom: 20px;
+    left: 170px;
+    position: absolute;
+    display: none;
+    
 }
 /* media quary styles */
 @media only screen and (max-width: 420px) {
