@@ -17,10 +17,10 @@
     background-color: #dddcdc;
     border-radius: 10px;
 }
-/* moment items styles */
-
-.dhoa-btn{
-    border: 3px salmon;
+/* carousel items styles */
+.carousel-item img{
+    width: 100%;
+    height: 100%;
 }
 
 /* media quary styles */
