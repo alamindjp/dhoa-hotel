@@ -8,6 +8,7 @@
     background-image: linear-gradient(90deg, #d4d4d4, #ffffff);
     font-family: 'Poppins', sans-serif;
 }
+
 .dhoa-btn-primary{
     font-weight: 700;
     text-decoration: none;
@@ -69,8 +70,21 @@
     left: 170px;
     position: absolute;
     display: none;
-    
 }
+/* footer section styles */
+footer{
+    background-color: #00051f;
+    color: #ffffffda;
+    border: 0 solid;
+    border-radius: 5px;
+    height: 300px;
+}
+.app-download{
+    background-color: inherit;
+    color: #fff8f8e5;
+    padding: 0 20px;
+}
+
 /* media quary styles */
 @media only screen and (max-width: 420px) {
     .h1-sm-font{
